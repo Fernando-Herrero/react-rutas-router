@@ -9,6 +9,9 @@ export const Navbar = () => {
 			<NavLink style={{ textDecoration: "none" }} to="/about">
 				About
 			</NavLink>
+			<NavLink style={{ textDecoration: "none" }} to="/user">
+				User
+			</NavLink>
 		</nav>
 	);
 };
